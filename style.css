@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    position: fixed;
+    background: black;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    text-align: center;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    float: left;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+    border-width: 5px;
+    border-color: aliceblue;
+    text-decoration: underline overline;
+}
+
+#In {
+    height: 500;
+    width: 1300;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #00f9ff, #be03fd, #53b7d2, #bb2167, #baa59f, #9ee5b8, #08415d, #ffe45e, #3cdb84, #7a667d);
+    font-family: Arial;
+    margin: 0;
+}
+
+.img1 {
+    width: 295px;
+    height: 225px;
+}
+
+.contact_1 h3 {
+    display: inline;
+    color: black;
+    text-shadow: none;
+    text-decoration: none;
+
+}
+
+#myCarousel {
+    background-color: red;
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+.stackend .slide1 {
+background-image: url(download.jpg);
+color:white;
+padding:50px;
+font-size:3em;
+height:60vw;
+width:100%;
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center top;
+}
+
+.stackend .slide2 {
+background-image: url(images.jpg);
+color:white;
+padding:50px;
+font-size:3em;
+height:60vw;
+width:100%;
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center top;
+}
